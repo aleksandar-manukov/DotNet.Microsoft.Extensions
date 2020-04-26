@@ -1,0 +1,2 @@
+## Pack DotNet.Microsoft.Extensions.nuspec
+    nuget pack .\DotNet.Microsoft.Extensions.nuspec -OutputDirectory "D:\Packages\"

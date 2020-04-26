@@ -1,0 +1,15 @@
+<Project>
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.0;net461;net462;net47;net471;net472;net48</TargetFrameworks>
+        <Authors>Aleksandar Manukov</Authors>
+        <PackageProjectUrl>https://github.com/aleksandar-manukov/DotNet.Microsoft.Extensions</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/aleksandar-manukov/DotNet.Microsoft.Extensions</RepositoryUrl>
+        <!--<DocumentationFile>$(TargetPath)$(MSBuildProjectName).xml</DocumentationFile>-->
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <PackageOutputPath>D://Packages/</PackageOutputPath>
+        <!--<VersionSuffix>prerelease</VersionSuffix>-->
+    </PropertyGroup>
+</Project>
